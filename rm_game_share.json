@@ -1,0 +1,43 @@
+{
+    "init_client_args": [
+        {
+            "name": "port",
+            "value": 8080
+        },
+        {
+            "name": "protocol",
+            "value": 1,
+            "value_list": [
+                {
+                    "name": "tcp",
+                    "value": 1
+                },
+                {
+                    "name": "udp",
+                    "value": 0
+                }
+            ]
+        }
+    ],
+    "init_host_args": [
+        {
+            "name": "port",
+            "value": 8080
+        },
+        {
+            "name": "protocol",
+            "value": 1,
+            "value_list": [
+                {
+                    "name": "tcp",
+                    "value": 1
+                },
+                {
+                    "name": "udp",
+                    "value": 0
+                }
+            ]
+        }
+    ],
+    "background_args": []
+}
