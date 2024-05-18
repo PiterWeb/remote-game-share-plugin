@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  build-win:
+    cmds:
+      - go build -o bin/rm_game_share.dll -buildmode=c-shared
+  build-linux:
+    cmds:
+      - go build -o bin/rm_game_share.so -buildmode=c-shared
